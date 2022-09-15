@@ -1,4 +1,4 @@
-package week1_Sutdy.greedyAndImplemetation.DNA;
+package 김도현.Week1.그리디_구현.BOJ_DNA_1969;
 
 import java.io.BufferedReader;
 import java.io.IOException;
