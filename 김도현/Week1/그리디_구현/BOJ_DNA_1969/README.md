@@ -88,3 +88,30 @@ TACTTACCAA
 AAGTTACCAA
 
 12
+
+---
+
+# 풀이 전 메모
+
+문제를 제대로 이해한 것 같진 않다.
+
+근데 입출력 결과로 규칙을 찾다보니까 해당 열에서 가장 많이 등장하는 문자를
+
+정답 문자열에 하나씩 추가하고, 그 열에 가장 많이 등장하는 문자가 아닌 것의 갯수를 카운팅 한것을 출력해주면 되는 것같았다.
+
+---
+
+# 풀이 중 메모
+
+    // HashMap 최대값 Value 를 가진 Key=Value 꼴을 추출하기
+    // Key 를 바탕으로 문자열 정렬
+    Map.Entry<Character, Integer> maxEntry = countMap.entrySet().stream()
+        .sorted(Map.Entry.comparingByKey())
+        .max(Map.Entry.comparingByValue())
+        .orElse(null);
+
+HashMap 에서는 entrySet() 이라는 메서드를 제공한다. 해당 HashMap의 (Key-Value) 를 모두 가지고 있는 것이다.
+
+Stream 과 결합하여 사용할 수 있는데, sorted 중간연산 내의 Map.Entry.comparingByKey() 함수 매개변수로 Key 값에 대하여 정렬한다.
+
+max 종단연산으로 Value 가 가장 큰 Key 값에 대한 Key-Value를 maxEntry가 가지고 있게 된다.
