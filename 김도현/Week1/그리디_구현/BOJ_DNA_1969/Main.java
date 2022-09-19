@@ -72,8 +72,8 @@ public class Main {
                     hammingDistance += characterIntegerEntry.getValue();
                 }
             }
-
         }
+
         System.out.println(answer);
         System.out.println(hammingDistance);
     }

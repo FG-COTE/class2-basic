@@ -10,6 +10,7 @@ c1 x1
 
 x1 130
 
+결국에는 첫번째(쩨일큰수랑) 계속 더해가면 되는것
  */
 
 import java.io.*;
@@ -22,7 +23,6 @@ public class Main {
     public static void main(String[] args) throws IOException {
 
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-        BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
 
         int n = Integer.parseInt(br.readLine());
         StringTokenizer st = new StringTokenizer(br.readLine());
@@ -33,17 +33,23 @@ public class Main {
             levelOfCard.add(Integer.valueOf(st.nextToken()));
         }
 
+        // 리스트 내림차순으로 정렬
         Collections.sort(levelOfCard, Collections.reverseOrder());
+
         int accumulatedSum = 0;
 
         for (int i = 0; i < n; i++) {
-            accumulatedSum += levelOfCard.get(i) + levelOfCard.get(i + 1);
+            if (i <= 1) {
+                accumulatedSum += levelOfCard.get(i);
+            }
+            else if (i > 1) {
+                accumulatedSum += levelOfCard.get(0) + levelOfCard.get(i);
+            }
         }
 
         System.out.println(accumulatedSum);
 
         br.close();
-        bw.close();
 
     }
 }
