@@ -23,7 +23,7 @@
 | 주차 | BOJ 번호 |
 | --- | --- |
 | 1주차 | [1969](https://www.acmicpc.net/problem/1969), [12845](https://www.acmicpc.net/problem/12845), [16506](https://www.acmicpc.net/problem/16506) |
-| 2주차  | 2주차 문제 3개   |  
+| 2주차  | [10815](https://www.acmicpc.net/problem/10815), [2309](https://www.acmicpc.net/problem/2309), [2751](https://www.acmicpc.net/problem/2751)   |  
 | 3주차 | 3주차 문제 2개 |
 | 4주차 | 3주차 문제 2개 + 4주차 문제 1개  | 
 | 5주차 | 4주차 문제 1개 + 5주차 문제 2개 |
