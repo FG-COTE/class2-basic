@@ -44,7 +44,7 @@ for i in range(n):
 
 
 # sort 이용
-# array.sort()
+array.sort()
 
 for i in array:
     print(i)  
