@@ -81,8 +81,6 @@ public class Main {
         }
         return null;
     }
-
-
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 
@@ -144,10 +142,12 @@ public class Main {
             //  binaryRB = "0".repeat(rB - rBLength - 1) + binaryRB;
             if (rBLength < rB && command[0].charAt(opcodeLength) == 'C') {
                 System.out.println("rB - rBLength = " + (rB - rBLength));
+
                 binaryRB = "0".repeat(rB - rBLength) + binaryRB;
             }
             else if (rBLength < rB && command[0].charAt(opcodeLength) != 'C') {
                 System.out.println("rB - rBLength - 1 = " + (rB - rBLength - 1));
+
                 binaryRB = "0".repeat(rB - rBLength - 1) + binaryRB + "0";
             }
 
