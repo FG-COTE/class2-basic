@@ -34,7 +34,6 @@ public class Main {
         int n = Integer.parseInt(br.readLine());
         StringTokenizer sangGeunSt = new StringTokenizer(br.readLine());
         int[] sangGenDeck = new int[n];
-        Arrays.sort(sangGenDeck);
 
         int m = Integer.parseInt(br.readLine());
         StringTokenizer targetSt = new StringTokenizer(br.readLine());
@@ -42,12 +41,13 @@ public class Main {
         for (int i = 0; sangGeunSt.hasMoreTokens(); i++) {
             sangGenDeck[i] = Integer.parseInt(sangGeunSt.nextToken());
         }
+        Arrays.sort(sangGenDeck);
 
         int [] answer = new int [m];
 
         for (int i = 0; i < m; i++) {
             int target = Integer.parseInt(targetSt.nextToken());
-            if (binarySearch(sangGenDeck, target, m)) {
+            if (binarySearch(sangGenDeck, target, n)) {
                 answer[i] = 1;
             }
         }

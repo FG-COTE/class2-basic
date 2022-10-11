@@ -15,7 +15,7 @@ public class Main {
 
         int n = Integer.parseInt(br.readLine());
         // int[] array = new int[n]; 시간초과
-        List<Integer> arrayList = new ArrayList<>();
+        List<Integer> arrayList = new ArrayList<>(n);
 
 
         for (int i = 0; i < n; i++) {
@@ -27,8 +27,11 @@ public class Main {
         Collections.sort(arrayList);
 
         for (Integer integer : arrayList) {
+            // System.out.println(integer); 시간초과
             bw.write(integer.toString() + "\n");
         }
         bw.flush();
+        br.close();
+        bw.close();
     }
 }
