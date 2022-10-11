@@ -25,7 +25,7 @@
 | 1주차 | [1969](https://www.acmicpc.net/problem/1969), [12845](https://www.acmicpc.net/problem/12845), [16506](https://www.acmicpc.net/problem/16506) |
 | 2주차  | [10815](https://www.acmicpc.net/problem/10815), [2309](https://www.acmicpc.net/problem/2309), [2751](https://www.acmicpc.net/problem/2751)   |  
 | 3주차 | [16173 - DFS로 풀기](https://www.acmicpc.net/problem/16173), [2606 - BFS로 풀기](https://www.acmicpc.net/problem/2606) |
-| 4주차 | 3주차 문제 2개 + 4주차 문제 1개  | 
+| 4주차 | [2210](https://www.acmicpc.net/problem/2210), [1388](https://www.acmicpc.net/problem/1388), [12033 - 백트래킹으로 풀기](https://www.acmicpc.net/problem/12033)  | 
 | 5주차 | 4주차 문제 1개 + 5주차 문제 2개 |
 | 6주차 | 5주차 문제 1개 + 6주차 문제 2개 |
 | 7주차 | 6주차 문제 2개 + 7주차 문제 2개 |   
