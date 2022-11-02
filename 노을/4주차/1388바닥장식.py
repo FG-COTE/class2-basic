@@ -16,7 +16,6 @@ n, m = map(int, input().split())
 array = []
 count = 0
 
-# 리스트의 얕은 복사
 visited = []
 temp = [False]*m
 for _ in range(n):

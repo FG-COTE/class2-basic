@@ -9,7 +9,6 @@ def dfs(array, discount_index, original_index):
     else:
         dfs(array, discount_index, original_index+1)
 
-
 t = int(input())
 for test_case in range(t):
     n = int(input())
