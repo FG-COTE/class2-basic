@@ -21,7 +21,7 @@ public class Main {
     public static int ispossible(int a, int nowind, int[] arr, boolean[] isused){
         for (int i = 0; i < arr.length; i++){
             if (isused[i] == false){
-                if (a / 3 * 4 == arr[i]){
+                if (a / 3 * 4 == arr[i]){ //어떤 가격의 할인 가격이 맞는지를 확인하는 조건
                     return i;
                 }
             }
