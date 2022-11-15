@@ -1,4 +1,3 @@
-
 n = int(input())
 dp = ['']*(n+1)
 dp[1] = 'SK'
@@ -11,5 +10,4 @@ if n>2:
             dp[i] = "CK"
         else:
             dp[i] = "SK"
-            
 print(dp[n])
