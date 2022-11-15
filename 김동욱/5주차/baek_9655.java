@@ -18,12 +18,7 @@ public class baek_9655 {
 
     public static int dp(int[] arr, int n){
         if (arr[n] == 0){
-            if (n > 3){
-                arr[n] = dp(arr, n-3) * -1;
-            }
-            else{
-                arr[n] = dp(arr, n-1) * -1;
-            }
+            arr[n] = dp(arr, n-3) * -1;
         }
         return arr[n];
     }
