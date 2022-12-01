@@ -28,7 +28,7 @@
 | 4주차 | [2210](https://www.acmicpc.net/problem/2210), [1388](https://www.acmicpc.net/problem/1388), [12033 - 백트래킹으로 풀기](https://www.acmicpc.net/problem/12033)  | 
 | 5주차 | [2992](https://www.acmicpc.net/problem/2992), [2775](https://www.acmicpc.net/problem/2775), [9655](https://www.acmicpc.net/problem/9655) |
 | 6주차 | [14916](https://www.acmicpc.net/problem/14916), [18352 - 다익스트라로 풀기](https://www.acmicpc.net/problem/18352), [1058 - 플로이드 워셜로 풀기](https://www.acmicpc.net/problem/1058) |
-| 7주차 | 6주차 문제 2개 + 7주차 문제 2개 |   
+| 7주차 | [24039]https://www.acmicpc.net/problem/24039, [2018]https://www.acmicpc.net/problem/2018, [2435]https://www.acmicpc.net/problem/2435 |   
 | 8주차 | 7주차 문제 2개 + 8주차 문제 2개 | 
 
 > 과제의 경우 실버3 ~ 5정도로 낼 생각이며 만약 과제가 너무 쉬운 경우 스스로 더 학습하시면 됩니다!
