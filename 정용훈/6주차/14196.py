@@ -11,7 +11,16 @@
 # 5n+3 = 5 X (n-1) + 2 X 4   => (n-1)+4°³
 # 5n+4 = 5 X n + 2 X 2       => n+2°³
 
+dp[10000] = -1
+
+dp[2] = 1
+dp[4] = 2
+dp[5] = 1
+
 money = int(input())
+
+for i in range(6, money+1):
+    asd
 
 if money == 1:
     print(-1)
