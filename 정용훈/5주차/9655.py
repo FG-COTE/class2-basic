@@ -22,8 +22,7 @@ dp[3] = 1
 ##  print("CY")
 ##else:
 ##  print("SK")
-  
-  
+##
   
 for i in range(4,N+1):
     dp[i] = dp[(i//3)] + dp[(i%3)]
