@@ -2,7 +2,6 @@ n = int(input())
 d = [list(map(str, input())) for i in range(n)]
 max = 0
 
-
 for k in range(n):
     for i in range(n):
         count = 0
@@ -13,3 +12,4 @@ for k in range(n):
 
                 
 print(max)
+#a
