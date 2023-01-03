@@ -13,6 +13,7 @@ public class Main {
             queue.add(i);
         }
 
+        //문제의 흐름이 맨 앞을 버리고, 그 다음 숫자를 맨뒤로 보내고를 반복하는 흐름이므로..
         while (queue.size() > 1){
             queue.poll();
             int a = queue.poll();
